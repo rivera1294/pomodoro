@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.breakSession-container {
+    font-size: 1.5em;   
+}
+
+.break-container {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.session-container {
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.countdown-container {
+    width: 40%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.countdown {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    border-radius: 50%;
+}
+
+.countdown p {
+    position: relative;
+    top: 80px;
+    margin: 0;
+    font-size: 2em;
+}
+
+.start {
+    margin-top: 50px;
+    font-size: 1.8em;
+    padding: 30px 50px;
+    background: black;
+    border-radius: 5px;
+    color: white;
+}

@@ -11,18 +11,26 @@
 <body>
     <div class="wrapper">
         <div class="container">
-            <h1>Pomodoro Clock</h1>
+            <h1 class="title">Pomodoro Clock</h1>
+            
             <div class="breakSession-container">
                 <div class="break-container">
                     <p>Break</p>
-                    <p>- <span class="break-time"></span>m +</p>
+                    <p><span class="break-minus">- </span><span class="break-time">5</span>m <span class="break-plus">+</span></p>
                 </div>
                 <div class="session-container">
                     <p>Session</p>
-                    <p>Break</p>
-                    <p>- <span class="session-time"></span>m +</p>
+                    <p><span class="session-minus">- </span><span class="session-time">25</span>m <span class="session-plus">+</span></p>
                 </div>
             </div>
+            <div style="clear: both;"></div>
+            <div class="countdown-container">
+                <div class="countdown">
+                    <p><span class="counter">25</span>m</p>
+                </div>
+                <div class="start">Start</div>
+            </div>
+        </div>
             
         </div>
     </div>
