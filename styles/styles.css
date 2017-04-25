@@ -25,6 +25,11 @@ body {
     text-align: center;
 }
 
+.minus,
+.plus {
+    cursor: pointer;
+}
+
 .session-container {
     width: 30%;
     float: right;
@@ -52,11 +57,17 @@ body {
     font-size: 2em;
 }
 
-.start {
+.start, .stop {
     margin-top: 50px;
     font-size: 1.8em;
     padding: 30px 50px;
     background: black;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
+
+.stop {
+    display: none;
+}
+
